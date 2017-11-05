@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cg.yunbee.cn.wangyoujar.work.QRCodepayActivity" >
+
+    <TextView 
+        android:id="@+id/id_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+        android:text="扫描支付"
+        />
+  
+    <ImageView 
+        android:id="@+id/id_QRImg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/id_title"
+        android:layout_marginBottom="16dp"
+        />
+
+</RelativeLayout>
